@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 03 | Sample Solution</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="hello.html">Review Task</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="task2.html">About Me</a></li>
+            <li><a href="task3.html">Math</a></li>
+            <li><a href="task4.html">Lesson 4</a></li>
+            <li><a href="task5.html">Lesson 5</a></li>
+            <li><a href="task6.html">Final Task</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Formulas</h1>
+    </header>
+    <main>
+        <section id="functions">
+            <article>
+                <h2>Slope</h2>
+                <div>
+                    <label for="SlopeX1">X1:</label>
+                    <input type="text" id="SlopeX1" name="SlopeX1">
+                </div>
+                <div>
+                    <label for="SlopeY1">Y1:</label>
+                    <input type="text" id="SlopeY1" name="SlopeY1">
+                </div>
+                <div>
+                    <label for="SlopeX2">X2:</label>
+                    <input type="text" id="SlopeX2" name="SlopeX2">
+                </div>
+                <div>
+                    <label for="SlopeY2">Y2:</label>
+                    <input type="text" id="SlopeY2" name="SlopeY2">
+                </div>
+                <div>
+                    <input type="button" id="findSlope" value="Find Slope">
+                </div>
+                <div>
+                    <label for="slope">slope:</label>
+                    <input type="text" id="slope" name="slope" disabled>
+                </div>
+            </article>
+            <article>
+                <h2>Distance Between Points</h2>
+                <div>
+                    <label for="DisX1">X1:</label>
+                    <input type="text" id="DisX1" name="DisX1">
+                </div>
+                <div>
+                    <label for="DisY1">Y1:</label>
+                    <input type="text" id="DisY1" name="DisY1">
+                </div>
+                <div>
+                    <label for="DisX2">X2:</label>
+                    <input type="text" id="DisX2" name="DisX2">
+                </div>
+                <div>
+                    <label for="DisY2">Y2:</label>
+                    <input type="text" id="DisY2" name="DisY2">
+                </div>
+                <div>
+                    <input type="button" id="findDistance" value="findDistance">
+                </div>
+                <div>
+                    <label for="Distance">Distance:</label>
+                    <input type="text" id="Distance" name="Distance" disabled>
+                </div>
+            </article>
+            <article>
+                <h2>Pythagorean Theorem</h2>
+                <div>
+                    <label for="a">A:</label>
+                    <input type="text" id="a" name="a">
+                </div>
+                <div>
+                    <label for="b">B:</label>
+                    <input type="text" id="b" name="b">
+                </div>
+                <div>
+                    <input type="button" id="findHypotenuse" value="Find Hypotenuse">
+                </div>
+                <div>
+                    <label for="hypotenuse">Hypotenuse:</label>
+                    <input type="text" id="hypotenuse" name="hypotenuse" disabled>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <label for="x">Known Length:</label>
+                    <input type="text" id="x" name="x">
+                </div>
+                <div>
+                    <label for="hypo">Hypotenuse:</label>
+                    <input type="text" id="hypo" name="hypo">
+                </div>
+                <div>
+                    <input type="button" id="findLength" value="Find Length">
+                </div>
+                <div>
+                    <label for="sideLength">Side Length:</label>
+                    <input type="text" id="sideLength" name="sideLength" disabled>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Functions | Lesson 3
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task6.js"></script>
+</body>
+
+</html>
